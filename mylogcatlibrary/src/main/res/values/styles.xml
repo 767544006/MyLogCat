@@ -1,0 +1,4 @@
+<resources>
+    <style name="LogTheme" parent="Base.Widget.AppCompat.ActionBar">
+    </style>
+</resources>

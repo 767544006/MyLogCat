@@ -1,0 +1,28 @@
+<manifest package="com.demos.mylogcatlibrary"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application>
+        <activity
+            android:name="com.demos.mylogcatlibrary.LogActivity"
+            android:icon="@drawable/icon"
+            android:taskAffinity="com.demos.mylogcatlibrary"
+            android:theme="@style/LogTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.demos.mylogcatlibrary.PrefsActivity"
+            android:icon="@drawable/icon"
+            android:taskAffinity="com.demos.mylogcatlibrary"
+            android:theme="@style/LogTheme">
+        </activity>
+    </application>
+
+</manifest>
