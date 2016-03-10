@@ -23,5 +23,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    debugCompile  project (':mylogcatlibrary')
+//    debugCompile  project (':mylogcatlibrary')
+    compile 'com.gn.logcatlibrary:mylogcatlibrary:1.0.0'
 }
