@@ -1,4 +1,4 @@
 <resources>
-    <style name="LogTheme" parent="Base.Widget.AppCompat.ActionBar">
+    <style name="gnLogTheme" parent="Base.Widget.AppCompat.ActionBar">
     </style>
 </resources>

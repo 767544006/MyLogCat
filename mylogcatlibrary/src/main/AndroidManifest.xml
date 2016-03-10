@@ -1,4 +1,4 @@
-<manifest package="com.demos.mylogcatlibrary"
+<manifest package="com.gn.logcatlibrary"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.READ_LOGS"/>
@@ -7,10 +7,10 @@
 
     <application>
         <activity
-            android:name="com.demos.mylogcatlibrary.LogActivity"
+            android:name="com.gn.logcatlibrary.LogActivity"
             android:icon="@drawable/icon"
-            android:taskAffinity="com.demos.mylogcatlibrary"
-            android:theme="@style/LogTheme">
+            android:taskAffinity="com.gn.logcatlibrary"
+            android:theme="@style/gnLogTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -18,10 +18,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.demos.mylogcatlibrary.PrefsActivity"
+            android:name="com.gn.logcatlibrary.PrefsActivity"
             android:icon="@drawable/icon"
-            android:taskAffinity="com.demos.mylogcatlibrary"
-            android:theme="@style/LogTheme">
+            android:taskAffinity="com.gn.logcatlibrary"
+            android:theme="@style/gnLogTheme">
         </activity>
     </application>
 
