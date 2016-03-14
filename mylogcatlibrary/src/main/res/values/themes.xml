@@ -1,0 +1,4 @@
+<resources>
+    <style name="gnLogTheme" parent="android:Theme">
+    </style>
+</resources>
