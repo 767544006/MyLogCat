@@ -16,9 +16,11 @@ MyLogCat 是在安卓手机上查看日志的库，这种实时查看日志的�
 
 #### 集成
 
+```
 dependencies {
     compile 'com.gn.logcatlibrary:mylogcatlibrary:1.0.2'
 }
+```
 
 
 ## 实现原理：
