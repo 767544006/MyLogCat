@@ -4,7 +4,7 @@ MyLogCat
 MyLogCat 是在安卓手机上查看日志的库，这种实时查看日志的方式，可以快速定位测试人员或者用户反馈的错误问题。
 -------
     
-##特点：
+## 特点：
   1. 支持Androd 2.3以上系统
   2. 无需root权限
   3. 不同级别的日志显示不同的颜色
@@ -12,16 +12,16 @@ MyLogCat 是在安卓手机上查看日志的库，这种实时查看日志的�
   5. 根据正则去匹配tag的日志
   6. 保存，分享，清空当前输出日志
     
-##使用方法：
+## 使用方法：
 
-####集成
+#### 集成
 
 dependencies {
     compile 'com.gn.logcatlibrary:mylogcatlibrary:1.0.2'
 }
 
 
-##实现原理：
+## 实现原理：
     
  请参见源码https://code.google.com/archive/p/alogcat/
 
